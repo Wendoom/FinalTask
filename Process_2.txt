@@ -1,0 +1,9 @@
+1) Downloaded hector scan using 
+sudo apt-get install ros-noetic-hector-slam
+
+2) Launched hector slam using : 
+roslaunch hector_slam_launch tutorial.launch
+
+3) Created a map and laser scan.
+
+4) Changed the topics to /scan for laser scan to use the lidar sensor input.
